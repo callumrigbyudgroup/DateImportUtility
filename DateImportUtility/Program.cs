@@ -9,7 +9,7 @@ namespace DateImportUtility
         static void Main(string[] args)
         {
             string tableName = "matrix_tgp_postcodes";
-            string path = @"X:\UDMatrix Imports\_____Matrix Files - All Clients\Total Gas and Power\2017-07-20\GEM (UD Group)\postcode lookup.csv";
+            string path = @"\\udserver\Development\UDMatrix Imports\_____Matrix Files - All Clients\Total Gas and Power\2017-07-20\GEM (UD Group)\postcode lookup.csv";
             string whereClause = "";
             SqlFunctions.BulkInsertToAzure(Constants.AzureBrokerDataConnectionString, "dbo", tableName, path, true, whereClause);
 
