@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateImportUtility", "DateImportUtility\DateImportUtility.csproj", "{A0D3C769-97C3-423D-9A09-C312D1517FD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDGroup.General", "..\UDMatrixImporterService\UDMatrixImporterService\UDGroup.General\UDGroup.General.csproj", "{0786394D-3C85-446A-BCD2-5DD58C7F863F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDGroup.DataAccess", "..\UDMatrixImporterService\UDMatrixImporterService\UDGroup.DataAccess\UDGroup.DataAccess.csproj", "{46E59E11-85EA-407B-973F-E13FFBEC7ACA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0D3C769-97C3-423D-9A09-C312D1517FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0D3C769-97C3-423D-9A09-C312D1517FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0D3C769-97C3-423D-9A09-C312D1517FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0D3C769-97C3-423D-9A09-C312D1517FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0786394D-3C85-446A-BCD2-5DD58C7F863F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0786394D-3C85-446A-BCD2-5DD58C7F863F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0786394D-3C85-446A-BCD2-5DD58C7F863F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0786394D-3C85-446A-BCD2-5DD58C7F863F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E59E11-85EA-407B-973F-E13FFBEC7ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E59E11-85EA-407B-973F-E13FFBEC7ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E59E11-85EA-407B-973F-E13FFBEC7ACA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E59E11-85EA-407B-973F-E13FFBEC7ACA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
